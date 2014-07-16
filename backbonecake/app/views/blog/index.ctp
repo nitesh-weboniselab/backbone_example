@@ -6,6 +6,6 @@
 <?php echo $this->Javascript->link('backbone/model'); ?>
 <?php echo $this->Javascript->link('backbone/view'); ?>
 <?php echo $this->Javascript->link('backbone/collection'); ?>
-<?php echo $this->Javascript->link('backbone/route'); ?>
+<?php echo $this->Javascript->link('backbone/router'); ?>
 
 

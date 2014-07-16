@@ -17,7 +17,7 @@ Blog.test.View = (function(){
                        model:blog
                     });
 
-                    $('#message').append(this.blogListItemView.render().el);
+                    this.$el.append(this.blogListItemView.render().el);
                });
                 $('#message').html(this.el);
             }
@@ -38,7 +38,6 @@ Blog.test.View = (function(){
        blogAddView: Backbone.View.extend({
             tagName:'div',
 
-       //template:_.template('<input type="text" id="name" placeholder="Blog Name" /><input type="text" id="content" placeholder="Blog Content" /> <button class="save">Save</button>'),
         initialize:function (){
             this.render();
             },

@@ -3,10 +3,7 @@ Blog.test = Blog.test || {};
 
 Blog.test.collection= (function(){
     return{
-     /*   blogList: Backbone.Collection.extend({
-            model:Blog.test.model.listBlog,
-            url:'blog/listBlog'
-        }),*/
+       blogList: Backbone.Collection.extend(),
         bloglisting: Backbone.Collection.extend()
 
     };
